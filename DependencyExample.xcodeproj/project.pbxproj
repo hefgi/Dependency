@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DC1EBFDA212450060039FF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EBFD9212450060039FF98 /* AppDelegate.swift */; };
-		DC1EBFDC212450060039FF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EBFDB212450060039FF98 /* ViewController.swift */; };
-		DC1EBFDF212450060039FF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1EBFDD212450060039FF98 /* Main.storyboard */; };
+		DC1EBFDC212450060039FF98 /* DependencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EBFDB212450060039FF98 /* DependencyViewController.swift */; };
+		DC1EBFDF212450060039FF98 /* Dependency.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1EBFDD212450060039FF98 /* Dependency.storyboard */; };
 		DC1EBFE1212450070039FF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1EBFE0212450070039FF98 /* Assets.xcassets */; };
 		DC1EBFE4212450070039FF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1EBFE2212450070039FF98 /* LaunchScreen.storyboard */; };
 		DC1EBFEF212450070039FF98 /* DependencyExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EBFEE212450070039FF98 /* DependencyExampleTests.swift */; };
@@ -36,8 +36,8 @@
 /* Begin PBXFileReference section */
 		DC1EBFD6212450060039FF98 /* DependencyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependencyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1EBFD9212450060039FF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC1EBFDB212450060039FF98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC1EBFDE212450060039FF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1EBFDB212450060039FF98 /* DependencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyViewController.swift; sourceTree = "<group>"; };
+		DC1EBFDE212450060039FF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dependency.storyboard; sourceTree = "<group>"; };
 		DC1EBFE0212450070039FF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC1EBFE3212450070039FF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC1EBFE5212450070039FF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,7 @@
 		DC1EBFF5212450070039FF98 /* DependencyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependencyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1EBFF9212450070039FF98 /* DependencyExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyExampleUITests.swift; sourceTree = "<group>"; };
 		DC1EBFFB212450070039FF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1EC00721246ABB0039FF98 /* DependencyExample.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DependencyExample.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		DC1EBFCD212450060039FF98 = {
 			isa = PBXGroup;
 			children = (
+				DC1EC00721246ABB0039FF98 /* DependencyExample.podspec */,
 				DC1EBFD8212450060039FF98 /* DependencyExample */,
 				DC1EBFED212450070039FF98 /* DependencyExampleTests */,
 				DC1EBFF8212450070039FF98 /* DependencyExampleUITests */,
@@ -98,10 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				DC1EBFD9212450060039FF98 /* AppDelegate.swift */,
-				DC1EBFDB212450060039FF98 /* ViewController.swift */,
-				DC1EBFDD212450060039FF98 /* Main.storyboard */,
-				DC1EBFE0212450070039FF98 /* Assets.xcassets */,
-				DC1EBFE2212450070039FF98 /* LaunchScreen.storyboard */,
+				DC1EC00821246B1E0039FF98 /* Classes */,
+				DC1EC00B21246F820039FF98 /* Resources */,
 				DC1EBFE5212450070039FF98 /* Info.plist */,
 			);
 			path = DependencyExample;
@@ -123,6 +123,24 @@
 				DC1EBFFB212450070039FF98 /* Info.plist */,
 			);
 			path = DependencyExampleUITests;
+			sourceTree = "<group>";
+		};
+		DC1EC00821246B1E0039FF98 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC1EBFDB212450060039FF98 /* DependencyViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC1EC00B21246F820039FF98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC1EBFDD212450060039FF98 /* Dependency.storyboard */,
+				DC1EBFE0212450070039FF98 /* Assets.xcassets */,
+				DC1EBFE2212450070039FF98 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +249,7 @@
 			files = (
 				DC1EBFE4212450070039FF98 /* LaunchScreen.storyboard in Resources */,
 				DC1EBFE1212450070039FF98 /* Assets.xcassets in Resources */,
-				DC1EBFDF212450060039FF98 /* Main.storyboard in Resources */,
+				DC1EBFDF212450060039FF98 /* Dependency.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1EBFDC212450060039FF98 /* ViewController.swift in Sources */,
+				DC1EBFDC212450060039FF98 /* DependencyViewController.swift in Sources */,
 				DC1EBFDA212450060039FF98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +311,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC1EBFDD212450060039FF98 /* Main.storyboard */ = {
+		DC1EBFDD212450060039FF98 /* Dependency.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DC1EBFDE212450060039FF98 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Dependency.storyboard;
 			sourceTree = "<group>";
 		};
 		DC1EBFE2212450070039FF98 /* LaunchScreen.storyboard */ = {

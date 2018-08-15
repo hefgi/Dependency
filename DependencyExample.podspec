@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = '4.0'
 
-  s.source_files = 'DependencyExample/*'
-
+  s.source_files = 'DependencyExample/Classes/*'
+  s.resources = 'DependencyExample/Resources/*'
   s.frameworks = 'UIKit', 'Foundation'
   s.module_name = 'DependencyExample'
 end
