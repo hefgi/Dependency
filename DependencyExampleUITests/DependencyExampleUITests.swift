@@ -1,6 +1,6 @@
 //
-//  DependencyUITests.swift
-//  DependencyUITests
+//  DependencyExampleUITests.swift
+//  DependencyExampleUITests
 //
 //  Created by François-Julien Alcaraz on 15/08/2018.
 //  Copyright © 2018 François-Julien Alcaraz. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class DependencyUITests: XCTestCase {
+class DependencyExampleUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

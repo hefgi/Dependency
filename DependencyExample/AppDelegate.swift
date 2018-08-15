@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Dependency
+//  DependencyExample
 //
 //  Created by François-Julien Alcaraz on 15/08/2018.
 //  Copyright © 2018 François-Julien Alcaraz. All rights reserved.

@@ -1,15 +1,15 @@
 //
-//  DependencyTests.swift
-//  DependencyTests
+//  DependencyExampleTests.swift
+//  DependencyExampleTests
 //
 //  Created by François-Julien Alcaraz on 15/08/2018.
 //  Copyright © 2018 François-Julien Alcaraz. All rights reserved.
 //
 
 import XCTest
-@testable import Dependency
+@testable import DependencyExample
 
-class DependencyTests: XCTestCase {
+class DependencyExampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
