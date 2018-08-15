@@ -8,26 +8,25 @@
 
 import UIKit
 
-protocol DependencyViewControllerDelegate {
+public protocol DependencyViewControllerDelegate {
     func viewController(_ viewController: DependencyViewController, dismissTappedAnimated animated: Bool)
-    
 }
 
-class DependencyViewController: UIViewController {
+open class DependencyViewController: UIViewController {
     
-    var delegate: DependencyViewControllerDelegate?
+    open var delegate: DependencyViewControllerDelegate?
 
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    override open func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    static func instantiate() -> DependencyViewController {
+    open static func instantiate() -> DependencyViewController {
         
         guard let vc = UIStoryboard(name: "Dependency", bundle: nil).instantiateInitialViewController() as? DependencyViewController else {
             fatalError("Couldn't instantiate initial viewcontroller from Dependency")
