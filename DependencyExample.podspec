@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/hefgi/DependencyExample"
   s.license          = 'Code is MIT'
   s.author           = { "Francois-Julien Alcaraz" => "fj@waver.co" }
-  s.source           = { :git => "https://github.com/hefgi/DependencyExample.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/hefgi/DependencyExample.git", :branch => 'master' }
   s.social_media_url = 'https://twitter.com/hefgi'
 
   s.platform     = :ios, '11.0'
