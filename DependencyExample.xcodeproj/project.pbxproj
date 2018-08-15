@@ -102,6 +102,7 @@
 				DC1EBFD9212450060039FF98 /* AppDelegate.swift */,
 				DC1EC00821246B1E0039FF98 /* Classes */,
 				DC1EC00B21246F820039FF98 /* Resources */,
+				DC1EBFE2212450070039FF98 /* LaunchScreen.storyboard */,
 				DC1EBFE5212450070039FF98 /* Info.plist */,
 			);
 			path = DependencyExample;
@@ -138,7 +139,6 @@
 			children = (
 				DC1EBFDD212450060039FF98 /* Dependency.storyboard */,
 				DC1EBFE0212450070039FF98 /* Assets.xcassets */,
-				DC1EBFE2212450070039FF98 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
