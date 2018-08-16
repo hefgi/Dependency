@@ -28,7 +28,12 @@ open class DependencyViewController: UIViewController {
     
     open static func instantiate() -> DependencyViewController {
         
-        guard let vc = UIStoryboard(name: "Dependency", bundle: Bundle(for: type(of: self) as! AnyClass)).instantiateInitialViewController() as? DependencyViewController else {
+        let podBundle = Bundle(for: DependencyViewController.self)
+        let bundleURL = podBundle.url(forResource: "DependencyExample", withExtension: "bundle")
+        let bundle = Bundle(url: bundleURL!)!
+        let storyboard = UIStoryboard(name: "Dependency", bundle: bundle)
+        
+        guard let vc = storyboard.instantiateInitialViewController() as? DependencyViewController else {
             fatalError("Couldn't instantiate initial viewcontroller from Dependency")
         }
         return vc
