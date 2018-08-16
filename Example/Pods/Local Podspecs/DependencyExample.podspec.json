@@ -1,23 +1,23 @@
 {
   "name": "DependencyExample",
-  "version": "0.1.0",
-  "summary": "A short description of DependencyExample.",
+  "version": "1.0",
+  "summary": "A simple dependency project in Swift",
+  "description": "Proof of concept : How can we add a dependency to a core app.",
   "homepage": "https://github.com/hefgi/DependencyExample",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "license": "Code is MIT",
   "authors": {
-    "hefgi": "fj@waver.co"
+    "Francois-Julien Alcaraz": "fj@waver.co"
   },
   "source": {
     "git": "https://github.com/hefgi/DependencyExample.git",
-    "tag": "0.1.0"
+    "branch": "master"
   },
   "social_media_url": "https://twitter.com/hefgi",
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
+  "requires_arc": true,
+  "swift_version": "4.0",
   "source_files": "DependencyExample/Classes/**/*.{swift}",
   "resource_bundles": {
     "DependencyExample": [
@@ -27,5 +27,6 @@
   "frameworks": [
     "UIKit",
     "Foundation"
-  ]
+  ],
+  "module_name": "DependencyExample"
 }

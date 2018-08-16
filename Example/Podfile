@@ -1,8 +1,9 @@
 use_frameworks!
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'DependencyExample_Example' do
   pod 'DependencyExample', :path => '../'
+  #  pod 'DependencyExample', :git => 'https://github.com/hefgi/DependencyExample.git'
 
   target 'DependencyExample_Tests' do
     inherit! :search_paths
