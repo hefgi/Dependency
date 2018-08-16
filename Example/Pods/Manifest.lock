@@ -1,5 +1,5 @@
 PODS:
-  - DependencyExample (1.0)
+  - DependencyExample (1.0.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -14,7 +14,7 @@ PODS:
   - Quick (1.2.0)
 
 DEPENDENCIES:
-  - DependencyExample (from `https://github.com/hefgi/DependencyExample.git`)
+  - DependencyExample (from `../`)
   - FBSnapshotTestCase (~> 2.1.4)
   - Nimble (~> 7.0.2)
   - Nimble-Snapshots (~> 6.3.0)
@@ -29,20 +29,15 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   DependencyExample:
-    :git: https://github.com/hefgi/DependencyExample.git
-
-CHECKOUT OPTIONS:
-  DependencyExample:
-    :commit: 889bd32aea9771477b5e185f01cc9f2add385c9e
-    :git: https://github.com/hefgi/DependencyExample.git
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DependencyExample: 75000ab53bf3d3566a19252191be304b2cd2b29f
+  DependencyExample: 6e8f6dee60e904ed813faadd917d802d970c2dc9
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: b7e3d414d79f16818eb6c5232fb9a183bc846bbf
+PODFILE CHECKSUM: 7e44e28d93c31bd2a274a00b1806ef8391215e5d
 
 COCOAPODS: 1.5.3
