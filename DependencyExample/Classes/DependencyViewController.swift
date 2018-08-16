@@ -43,5 +43,8 @@ open class DependencyViewController: UIViewController {
         delegate?.viewController(self, dismissTappedAnimated: true)
     }
     
+    func giveMeAString() -> String {
+        return "1234"
+    }
 }
 
