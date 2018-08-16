@@ -1,0 +1,31 @@
+{
+  "name": "DependencyExample",
+  "version": "0.1.0",
+  "summary": "A short description of DependencyExample.",
+  "homepage": "https://github.com/hefgi/DependencyExample",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hefgi": "fj@waver.co"
+  },
+  "source": {
+    "git": "https://github.com/hefgi/DependencyExample.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/hefgi",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DependencyExample/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "DependencyExample": [
+      "DependencyExample/Assets/**/*.{storyboard,xib,xcassets}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}
