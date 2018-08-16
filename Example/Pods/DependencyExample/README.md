@@ -1,2 +1,0 @@
-# DependencyExample
-iOS Dependency project

@@ -1,6 +1,0 @@
-framework module Pods_DependencyExample_Tests {
-  umbrella header "Pods-DependencyExample_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
